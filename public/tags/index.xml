@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Everyone Can Code - coding is for ANYONE, not just for engineers</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Everyone Can Code - coding is for ANYONE, not just for engineers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>framework</title>
+      <link>/tags/framework/</link>
+      <pubDate>Sat, 07 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/framework/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spring</title>
+      <link>/tags/spring/</link>
+      <pubDate>Sat, 07 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/spring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spring security</title>
+      <link>/tags/spring-security/</link>
+      <pubDate>Sat, 07 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/spring-security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker &#43; phpstorm</title>
+      <link>/tags/docker-&#43;-phpstorm/</link>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/docker-&#43;-phpstorm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker &#43; phpunit</title>
+      <link>/tags/docker-&#43;-phpunit/</link>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/docker-&#43;-phpunit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker &#43; symfony</title>
+      <link>/tags/docker-&#43;-symfony/</link>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/docker-&#43;-symfony/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker &#43; xdebug</title>
+      <link>/tags/docker-&#43;-xdebug/</link>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/docker-&#43;-xdebug/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>principles</title>
+      <link>/tags/principles/</link>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/principles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>solid</title>
+      <link>/tags/solid/</link>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/solid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tutorial</title>
+      <link>/tags/tutorial/</link>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

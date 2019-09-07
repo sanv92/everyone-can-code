@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Everyone Can Code - coding is for ANYONE, not just for engineers</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on Everyone Can Code - coding is for ANYONE, not just for engineers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>spring framework</title>
+      <link>/categories/spring-framework/</link>
+      <pubDate>Sat, 07 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/spring-framework/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>/categories/docker/</link>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>functional programming</title>
+      <link>/categories/functional-programming/</link>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/functional-programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>php</title>
+      <link>/categories/php/</link>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>phpunit</title>
+      <link>/categories/phpunit/</link>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/phpunit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>principles, patterns, practices</title>
+      <link>/categories/principles-patterns-practices/</link>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/principles-patterns-practices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>symfony</title>
+      <link>/categories/symfony/</link>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/symfony/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

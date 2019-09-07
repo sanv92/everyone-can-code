@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>spring framework on Everyone Can Code - coding is for ANYONE, not just for engineers</title>
+    <link>/categories/spring-framework/</link>
+    <description>Recent content in spring framework on Everyone Can Code - coding is for ANYONE, not just for engineers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/spring-framework/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Short introduction to Spring Security Architecture</title>
+      <link>/blog/2019/09/spring-security/</link>
+      <pubDate>Sat, 07 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019/09/spring-security/</guid>
+      <description>Short introduction, how spring works step by step 1. Authentication Filter    Http Servlet Request Authentication Filter (Extract Username and Password from Header) Create Username and Password &amp;quot;Authentication Token&amp;quot; &amp;quot;UsernamePasswordAuthenticationToken&amp;quot; Pass &amp;quot;Authentication Token&amp;quot; to &amp;quot;Authentication Manager&amp;quot;  2. Authentication    After the system is successfully Authenticated the identity, it will return new &amp;quot;Authenticated Token&amp;quot; with:
+ Principal: UserDetails Credentials: (we no longer need to keep the password in our memory because it is not safe) Authorities: ROLE_USER Authenticated: true  Example: AbstractUserDetailsAuthenticationProvider protected Authentication createSuccessAuthentication(Object principal, Authentication authentication, UserDetails user) { UsernamePasswordAuthenticationToken result = new UsernamePasswordAuthenticationToken( principal, authentication.</description>
+    </item>
+    
+  </channel>
+</rss>
