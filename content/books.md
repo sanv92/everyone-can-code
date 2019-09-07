@@ -45,7 +45,7 @@ https://drive.google.com/open?id=1p5XgleiiNDjdyzMuEuAiNBkXa0GOW3tz
 <div><img src="/img/main/books/agile-software-development.jpg" alt="" style="display:block;width: 350px;" /></div>
 https://drive.google.com/open?id=1HLozs42ymDI-B1XJnJT3r2FXWPDWDNL9
 
-##### Design Patterns via C# (Александром Шевчуком, Дмитрия Охрименко, Андрея Касьянова)
+##### Design Patterns via C# (Александр Шевчук, Дмитрий Охрименко, Андрей Касьянов)
 <div><img src="/img/main/books/design-patterns-via-c.jpg" alt="" style="display:block;width: 350px;" /></div>
 https://drive.google.com/open?id=1o85YNQTfW35FtgyFcTHK4pBQI2e2hY5b
 
