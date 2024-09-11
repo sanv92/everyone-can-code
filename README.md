@@ -1,3 +1,6 @@
+# Install
+git submodule update --init --recursive
+
 # Project build
 hugo
 

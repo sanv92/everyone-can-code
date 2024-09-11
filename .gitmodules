@@ -1,9 +1,6 @@
 [submodule "themes/ananke"]
 	path = themes/ananke
 	url = https://github.com/budparr/gohugo-theme-ananke.git
-[submodule "themes/future-imperfect"]
+[submodule "future-imperfect"]
 	path = themes/future-imperfect
-	url = https://github.com/jpescador/hugo-future-imperfect.git
-[submodule "hugo-future-imperfect"]
-	path = hugo-future-imperfect
 	url = https://github.com/jpescador/hugo-future-imperfect.git

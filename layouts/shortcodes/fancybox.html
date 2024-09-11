@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+<a href="/images/{{ index .Params 1 }}" data-fancybox="{{ index .Params 3 }}" data-caption="{{ index .Params 2 }}">
+    <img src="/images/{{ index .Params 1 }}" alt="{{ index .Params 2 }}" />
+</a>

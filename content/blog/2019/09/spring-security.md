@@ -16,7 +16,7 @@ type = "post"
 ## Short introduction, how spring works step by step
 
 ### 1. Authentication Filter
-{{< fancybox "date" "spring-security-authentication-filter-1.png" "caption" "gallery" >}}
+{{< fancybox "date" "spring-security-authentication-filter-1.png" "A Spring Security Authentication Filter" "gallery" >}}
 
 - Http Servlet Request
 - Authentication Filter (Extract Username and Password from Header)
@@ -24,7 +24,7 @@ type = "post"
 - Pass `"Authentication Token"` to `"Authentication Manager"`
 
 ### 2. Authentication
-{{< fancybox "date" "spring-security-authentication-token-2.png" "caption" "gallery" >}}
+{{< fancybox "date" "spring-security-authentication-token-2.png" "A Spring Security Authentication Filter" "gallery" >}}
 After the system is successfully Authenticated the identity,
 it will return new `"Authenticated Token"` with:
 
@@ -58,7 +58,7 @@ public UsernamePasswordAuthenticationToken(Object principal, Object credentials,
 {{< /highlight >}}
 
 ### 3. AuthenticationProvider and UserDetails/Service
-{{< fancybox "date" "spring-security-authentication-provider-3-and-user-details-service.png" "caption" "gallery" >}}
+{{< fancybox "date" "spring-security-authentication-provider-3-and-user-details-service.png" "A Spring Security Authentication Filter" "gallery" >}}
 
 `"Authentication Manager"` delegate `"Authenticated Token"` to `"Authentication Provider"`
 
@@ -70,7 +70,7 @@ it will only use those providers that are supported.
 P.S: `"Authentication Manager"` is interface and `"ProviderManager"` is default implementation of this interface.
 
 ### 4. Security Context - it is holder for context information, related to security.
-{{< fancybox "date" "spring-security-security-context-4.png" "caption" "gallery" >}}
+{{< fancybox "date" "spring-security-security-context-4.png" "A Spring Security Authentication Filter" "gallery" >}}
 
 To access protected endpoints, you need to store `"Authentication Token"` that will be easily accessible,
 that's where the `"ThreadLocal"` comes in, but we don't use it directly,
@@ -90,7 +90,7 @@ back to the "Authentication Manager".
 - "Authentication Filter" - sets the "Authentication Token" to the "SecurityContext".
 
 ### 5. Filter Security Interceptor - last filter in security filter chain, that protect access to protected resource
-{{< fancybox "date" "spring-security-filter-security-interceptor-5.png" "caption" "gallery" >}}
+{{< fancybox "date" "spring-security-filter-security-interceptor-5.png" "A Spring Security Authentication Filter" "gallery" >}}
 At the last stage, the authorization is based on the url of the request.
 FilterSecurityInterceptor is inherited from AbstractSecurityInterceptor and decides, does current user has access to the current url.
 
@@ -101,13 +101,13 @@ FilterSecurityInterceptor is inherited from AbstractSecurityInterceptor and deci
 - The "AccessDecisionManager" delegates to it's "AccessDecisionVoter(s)" for decision.
 
 ### 6. Access Decision
-{{< fancybox "date" "spring-security-access-decision-6.png" "caption" "gallery" >}}
+{{< fancybox "date" "spring-security-access-decision-6.png" "A Spring Security Authentication Filter" "gallery" >}}
 
 ### 7. Access Denied
-{{< fancybox "date" "spring-security-access-denied-7.png" "caption" "gallery" >}}
-{{< fancybox "date" "spring-security-access-denied-7a.png" "caption" "gallery" >}}
-{{< fancybox "date" "spring-security-access-denied-7b.png" "caption" "gallery" >}}
-{{< fancybox "date" "spring-security-access-denied-7c.png" "caption" "gallery" >}}
+{{< fancybox "date" "spring-security-access-denied-7.png" "A Spring Security Authentication Filter" "gallery" >}}
+{{< fancybox "date" "spring-security-access-denied-7a.png" "A Spring Security Authentication Filter" "gallery" >}}
+{{< fancybox "date" "spring-security-access-denied-7b.png" "A Spring Security Authentication Filter" "gallery" >}}
+{{< fancybox "date" "spring-security-access-denied-7c.png" "A Spring Security Authentication Filter" "gallery" >}}
 
 ### Exception Handling Recap
 - When "Access Denied" for current Authentication, the

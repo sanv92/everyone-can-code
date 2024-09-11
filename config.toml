@@ -4,7 +4,7 @@ title = "Everyone Can Code - coding is for ANYONE, not just for engineers"
 
 theme = "future-imperfect"
 preserveTaxonomyNames = true
-paginate = 3
+pagination.pagerSize = 3
 disqusShortname = "shortname"
 googleAnalytics = ""
 pluralizeListTitles = false
@@ -86,67 +86,9 @@ canonifyURLs = true
     sitekey = "SITE_KEY"
     secret  = "ENCRYPTED_SECRET"
 
-  # These are optional params related to the sidebar. They are recommended, but not
-  # required for proper functionality. HTML is supported within the params.
-#[params.intro]
-#  header    = "Hugo Future Imperfect"
-#
-#  paragraph = "Another fine responsive site template by <a href=\"http://html5up.net\">HTML5 UP</a>. Ported by Julio Pescador with some extra goodies <i class='fa fa-hand-peace-o'></i>"
-#
-#  about     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
-
-#  # This appears at the top of the sidebar above params.intro.header.
-#  # A width of less than 100px is recommended from a design perspective.
-#  [params.intro.pic]
-#    src       = "/img/main/logo.jpg"
-#    # Sets Image to be a cirlce
-#    circle    = false
-#    # Sets Image to be Future Imperfect's hexagon
-#    imperfect = true
-#    width     = ""
-#    alt       = "Hugo Future Imperfect"
-
 [params.postAmount]
 # Sets the number of recent posts to show in the sidebar. The default value is 5.
     sidebar = 5
-
-# Sets the menu items in the navigation bar
-# Identifier prepends a Font Awesome icon to the menu item
-#[[menu.main]]
-#  name = "Home"
-#  url = "/"
-#  identifier = "fa fa-home"
-#  weight = 1
-#
-#[[menu.main]]
-#  name = "About"
-#  url = "/about/"
-#  identifier = "fa fa-id-card-o"
-#  weight = 2
-#
-#[[menu.main]]
-#  name = "Blog"
-#  url = "/blog/"
-#  identifier = "fa fa-newspaper-o"
-#  weight = 3
-#
-#[[menu.main]]
-#  name = "Itemized"
-#  url = "/itemized/"
-#  identifier = "fa fa-list"
-#  weight = 4
-#
-#[[menu.main]]
-#  name = "Categories"
-#  url = "/categories/"
-#  identifier = "fa fa-sitemap"
-#  weight = 5
-#
-#[[menu.main]]
-#  name = "Contact"
-#  url = "/contact/"
-#  identifier = "fa fa-envelope-o"
-#  weight = 6
 
 [[menu.main]]
   name = "Home"
@@ -172,76 +114,12 @@ canonifyURLs = true
   identifier = "fa fa-newspaper-o"
   weight = 5
 
-#[[menu.main]]
-#  name = "Blog"
-#  url = "/blog/"
-#  identifier = "fa fa-newspaper-o"
-#  weight = 5
-#
-#[[menu.main]]
-#  name = "Books"
-#  url = "/books/"
-#  identifier = "fa fa-book"
-#  weight = 4
-#
-#[[menu.main]]
-#  name = "Presentations"
-#  url = "/presentations/"
-#  identifier = "fa fa-newspaper-o"
-#  weight = 3
-
 # Sets Social Media icons to appear and link to your account. Value should be your
 # username unless otherwise noted. These are the icons affected by socialAppearAtTop
 # and socialAppearAtBottom.
 [social]
   # Coding Communities
   github           = "SanderV1992"
-#  gitlab           = ""
-#  stackoverflow    = "" # User Number
-#  bitbucket        = ""
-#  jsfiddle         = ""
-#  codepen          = ""
-#
-#  # Visual Art Communities
-#  deviantart       = ""
-#  flickr           = "example"
-#  behance          = ""
-#  dribbble         = ""
-#
-#  # Publishing Communities
-#  wordpress        = ""
-#  medium           = ""
-#
-#  # Professional/Business Oriented Communities
-#  linkedin         = "example"
-#  linkedin_company = "examplebusiness"
-#  foursquare       = ""
-#  xing             = ""
-#  slideshare       = ""
-#
-#  # Social Networks
-#  facebook         = "example"
-#  googleplus       = ""
-#  reddit           = "example"
-#  quora            = ""
-#  youtube          = ""
-#  vimeo            = ""
-#  whatsapp         = "" # WhatsApp Number
-#
-#  # WeChat and QQ need testing.
-#  wechat           = ""
-#  qq               = "" # User ID Number
-#  instagram        = "example"
-#  tumblr           = ""
-#  twitter          = "example"
-#  skype            = ""
-#  snapchat         = ""
-#  pinterest        = "example"
-#  telegram         = "example"
-#  vine             = ""
-#  googlescholar    = ""
-#  orcid            = ""
-#  researchgate     = "example"
 
   # Email
   email            = "doctypestudio@gmail.com"
